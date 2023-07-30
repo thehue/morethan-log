@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "hue",
-    image: "https://notion-avatar.vercel.app/api/img/eyJmYWNlIjowLCJub3NlIjoxMCwibW91dGgiOjExLCJleWVzIjowLCJleWVicm93cyI6OSwiZ2xhc3NlcyI6MCwiaGFpciI6MjEsImFjY2Vzc29yaWVzIjoxMywiZGV0YWlscyI6MywiYmVhcmQiOjAsImZsaXAiOjAsImNvbG9yIjoicmdiYSgyNTUsIDAsIDAsIDApIiwic2hhcGUiOiJzcXVhcmUifQ==", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "frontend developer",
     bio: "I develop everything using node.",
     email: "nhhy32@gmail.com",
@@ -12,7 +12,7 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `thehue github blog`,
+      name: `github blog`,
       href: "https://thehue.github.io",
     },
   ],
@@ -23,8 +23,8 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  link: "https://hue-log.vercel.app/",
+  since: 2023, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
