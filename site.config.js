@@ -10,7 +10,11 @@ const CONFIG = {
     github: "thehue",
     instagram: "",
   },
-  projects: [
+  projects:   projects: [
+    {
+      name: `thehue github blog`,
+      href: "https://thehue.github.io",
+    },
   ],
   // blog setting (required)
   blog: {
